@@ -1,0 +1,49 @@
+#jisuanqi{
+	width: 495px;
+	height: 572px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background:#FFECEC ;
+	
+}
+#jsqtop{
+	height: 100px;
+	background: whitesmoke;  /*设置背景色*/
+	text-align: center;      /*设置文本居中*/
+	display: flex;
+	justify-content: center; /*主轴居中*/
+	align-items: center;	 /*侧轴居中*/
+}
+#jsqtop input{
+	width: 500px;
+	height: 80px;
+	font-size: 40px;
+	border: none;
+	outline: navy;
+	background: transparent;
+}
+#jsqbody{
+	width: 600px;
+	height: 600px;
+}
+
+.row{
+	width: 495px;
+	height: 122px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.row div{
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+	background: #999;
+	text-align: center;
+	line-height: 120px;
+}
+.row div:hover{
+	background: #FFFDEF;
+} 
+
